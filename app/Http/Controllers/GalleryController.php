@@ -75,9 +75,6 @@ class GalleryController extends Controller
             return redirect('gallery')->with('success', 'Berhasil menambahkan data baru');
     }
 
-    /**
-     * Display the specified resource.
-     */
     public function show(string $id)
     {
         //
