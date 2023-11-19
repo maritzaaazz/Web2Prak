@@ -105,6 +105,5 @@ class GalleryController extends Controller
     public function destroy(string $id)
     {
         //
-        //
     }
 }
